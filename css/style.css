@@ -11,9 +11,6 @@ html {
     line-height: 1.23;
 
 }
-.bg {
-    width: 100%;
-}
 .header {
     height: 80px;
     margin-bottom: 70px;
@@ -61,7 +58,7 @@ html {
     background-color: #FF9900;
     color: #FFFFFF;
 }
-main {
+.main {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -97,9 +94,17 @@ main {
     line-height: 1.5;
 
 }
+.bg {
+    width: 100%;
+    padding: 19px 0 74px 0;
+    background-image: url('../assets/pic/bg.svg');
+
+}
 .features {
     display: flex;
     flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
     
 }
 .features h2{
