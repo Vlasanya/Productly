@@ -30,6 +30,7 @@ html {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    list-style-type: none;
     
 }
 .menu_bar a {
@@ -213,6 +214,9 @@ html {
     line-height: 1.5;
     color: #2F281E;
     margin-bottom: 30px;
+}
+.footer_list {
+    list-style-type: none;
 }
 .footer_list li {
     margin-bottom: 15px;
